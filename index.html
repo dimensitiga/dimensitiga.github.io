@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="assets/styles/indexStyle.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="home">
+            <section class="berkas" id="berkas">
+                <div class="max-width">
+                    <h2 class="title">Pilih bangun ruang:</h2>
+                    <div class="carouselx owl-carousel">
+                        <div class="card" id="ppt-card" onclick="location.href='/bangun/kubus.html';">
+                            <div class="box">
+                                <iframe
+                                    src="/geogebra/kubus-polos.html"
+                                    frameborder="0"
+                                    class="kubus"
+                                ></iframe>
+                                <div class="text">Kubus</div>
+                                <h3></h3>
+                                <p></p>
+                               
+                            </div>
+                        </div>
+                        <div class="card" id="paper-card">
+                            <div class="box">
+                                <iframe
+                                    src="/geogebra/limassegiempat-polos.html"
+                                    frameborder="0"
+                                    class="limassegiempat"
+                                ></iframe>
+                                <div class="text">Limas Segi Empat</div>
+
+                                <p>
+                                    
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="/assets/script/script.js"></script>
+    </body>
+</html>
