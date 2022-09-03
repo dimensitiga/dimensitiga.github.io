@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;700&family=Ubuntu:wght@400;500&display=swap");
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.home {
+    text-align: center;
+    height: 100vh;
+}
+
+.kubus,
+.limassegiempat {
+    height: 400px;
+    width: 400px;
+}
+
+.opsi {
+    height: 400px;
+    width: 40%;
+    display: inline;
+    transition: transform 0.3s ease;
+}
+
+.opsi:hover {
+    transform: scale(1.05);
+}
+
+.berkas {
+    padding: 30px 0 0 0;
+    background-color: white;
+}
+
+.berkas .title {
+    color: #0f2491;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.berkas .carouselx .card {
+    height: 400px;
+    background: white;
+    color: black;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 25px 35px;
+    text-align: center;
+    margin: 5px 5px 20px 5px;
+    transition: all 0.3s ease;
+}
+
+.berkas .carouselx .card p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.berkas .carouselx .card h3 {
+    color: lightslategray;
+    opacity: 0.9;
+}
+
+.berkas .carouselx .card:hover {
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.berkas .carouselx .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.berkas .carouselx .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0 0 0;
+    margin: 10px 0 0 0;
+}
+
+.berkas .carouselx .card iframe {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid #373986 !important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+    background: #373986 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .max-width {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+
+    .max-width {
+        padding: 0 23px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .berkas .title {
+        font-size: 30px;
+    }
+    .max-width {
+        padding: 0 23px;
+    }
+}
