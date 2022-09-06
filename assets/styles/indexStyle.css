@@ -91,10 +91,9 @@ body {
 }
 
 .berkas .carouselx .card .text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
-    padding: 20px 0 0 0;
-    margin: 10px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .berkas .carouselx .card iframe {
@@ -126,6 +125,13 @@ body {
 .owl-dot.active,
 .owl-dot:hover {
     background: #373986 !important;
+}
+
+.text {
+    color: white;
+    background-color: #373986; 
+    padding: 8px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 991px) {
